@@ -14,18 +14,14 @@ This Source Dissimilarity method was inspired by Global Dissimilarity, which has
 >Lehmann D, Skrandies W. Reference-free identification of components of checkerboard-evoked multichannel potential fields. Electroenceph Clin Neurophysiol. 1980;48:609–21.
   
 The method is also referred to as the Global Map Dissimilarity, as described here: 
->Brunet, D., Murray, M. M., & Michel, C. M. (2011). Spatiotemporal analysis of multichannel EEG: CARTOOL. Computational intelligence and neuroscience.
+>Brunet, D., Murray, M. M., & Michel, C. M. (2011). Spatiotemporal analysis of multichannel EEG: CARTOOL. Computational intelligence and neuroscience, 2.
 
 ### Extentions of the method:
-  Although the method was originally intended to compare the sources of brain data, the same method has many other potential applications. It can be used to compare two datasets of any sizes and dimensionalities--for example, between two conditions, between two moments in time, or between two different pieces of equipment. The only requirement is that the two datasets are the same size. The method will assess differences in configuration across the dimensions of the input data (in the example above, this was space, but the dimensions could be time or any other relevant dimension). I hope that this method is useful and I am interested to find out how people decide to apply it.
+  Although the method was originally intended to compare the sources of brain data, the same method has many other potential applications. It can be used to compare two datasets of any sizes and dimensionalities; for example, between two conditions, between two moments in time, or between two different pieces of equipment. The only requirement is that the two datasets are the same size. The method will assess differences in configuration across the dimensions of the input data (in the example above, this was space, but the dimensions could be time or any other relevant dimension). I hope that this method is useful and I am interested to find out how people decide to apply it.
 
 ## Getting started
 ### Prerequisites
-There are two versions of this code: one for MATLAB and one for Python 3.
-
 The MATLAB code was written using MATLAB 2014b, although uses basic MATLAB functions that are compatible with older and newer versions of MATLAB. No additional toolboxes are required.
-
-The Python 3 code was written using Python 3.6.1. The numpy toolbox is required to run the script.
 
 ### Running the MATLAB script
 The MATLAB code is contained within the following file: SourceDissimilarityIndex.m
