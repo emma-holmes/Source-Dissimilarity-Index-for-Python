@@ -33,7 +33,7 @@ fprintf('\n\nCalculating dissimilarity index...')
 SDI = sqrt(mean((data1_norm - data2_norm).^2));
 fprintf('\n...done')
 
-% Print out the value
+% Print the value
 fprintf('\n\n----------------------------------');
 fprintf('\nSource Dissimilarity Index = %.3f\n', SDI);
 
@@ -62,8 +62,9 @@ fprintf('\n\nNormalising...')
 data_norm	= data_norm - mean(data_norm);
 
 % Divide by the root mean square deviation from the mean across elements
-if ~ mean(data_norm.^2) == 0
-    data_norm	= data_norm ./ sqrt(mean(data_norm.^2));
+data_norm	= data_norm ./ sqrt(mean(data_norm.^2));
+for idx = find(isnan(data_norm))
+    data_norm(idx) = 0;
 end
 fprintf('\n...done')
 
