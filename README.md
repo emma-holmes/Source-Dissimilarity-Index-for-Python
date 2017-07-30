@@ -25,10 +25,10 @@ For a visual explanation of the method, along with the formula for calculating t
 
 ## Getting started
 ### Prerequisites
-The code was written using MATLAB 2014b, although uses basic MATLAB functions that are compatible with older and newer versions of MATLAB. No additional toolboxes are required.
+The code was written using using Python 3.1.4. The code requires numpy..
 
-### Running the MATLAB script
-The MATLAB code is contained within the following file: SourceDissimilarityIndex.m
+### Running the Python script
+The Python code is contained within the following file: [SourceDissimilarityIndex.py](SourceDissimilarityIndex.py)
 
 The script takes two inputs: data1 and data2. The two inputs must have the same dimensions.
 
@@ -38,8 +38,8 @@ SDI = SourceDissimilarityIndex(data1, data2)
 ```
 The output from the script is a floating-point value between 0 and 2.
 
-### Note for Python users
-There are two versions of the code, which perform the same computations and output: one for MATLAB and one for Python 3. The Python 3 code can be found in a separate repository: [Source-Dissimilarity-Index-for-Python](https://github.com/emma-holmes/Source-Dissimilarity-Index-for-Python)
+### Note for MATLAB users
+There are two versions of the code, which perform the same computations and output: one for MATLAB and one for Python 3. The MATLAB code can be found in a separate repository: [Source-Dissimilarity-Index-for-MATLAB](https://github.com/emma-holmes/Source-Dissimilarity-Index-for-MATLAB)
 
 ## License
 
