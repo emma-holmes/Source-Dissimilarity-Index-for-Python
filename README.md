@@ -25,7 +25,7 @@ For a visual explanation of the method, along with the formula for calculating t
 
 ## Getting started
 ### Prerequisites
-The code was written using using Python 3.1.4. The code requires numpy..
+The code was written using using Python 3.1.4. The code requires numpy.
 
 ### Running the Python script
 The Python code is contained within the following file: [SourceDissimilarityIndex.py](SourceDissimilarityIndex.py)
