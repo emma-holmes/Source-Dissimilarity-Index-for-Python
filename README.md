@@ -18,7 +18,7 @@ The method is also referred to as the Global Map Dissimilarity, as described her
 
 ### More information
 For a visual explanation of the method, along with the formula for calculating the Source Dissimilarity Index, please see the following pdf file:
-[SDI_Explanation_PDF.pdf](../Source-Dissimilarity-Index/SDI_Explanation_PDF.pdf)
+[SDI_Explanation_PDF.pdf](SDI_Explanation_PDF.pdf)
 
 ### Extentions of the method
   Although the method was originally intended to compare the sources of brain data, the same method has many other potential applications. It can be used to compare two datasets of any sizes and dimensionalities; for example, between two conditions, between two moments in time, or between two different pieces of equipment. The only requirement is that the two datasets are the same size. The method will assess differences in configuration across the dimensions of the input data (in the example above, this was space, but the dimensions could be time or any other relevant dimension). I hope that this method is useful and I am interested to find out how people decide to apply it.
@@ -40,4 +40,4 @@ The output from the script is a value between 0 and 2.
 
 ## License
 
-This project is licensed under the MIT License; see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License; see the [LICENSE](LICENSE) file for details
